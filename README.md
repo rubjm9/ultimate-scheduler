@@ -1,30 +1,29 @@
 # Ultimate Scheduler
 
-Un sistema de programación avanzado para gestión de tareas y eventos.
-
-## Descripción
-
-Este proyecto está diseñado para proporcionar una solución completa de programación que permita gestionar tareas, eventos y recursos de manera eficiente.
+Frontend progresivo en React + Vite + TypeScript para diseñar torneos de Ultimate Frisbee.
 
 ## Características
 
-- Gestión de tareas
-- Programación de eventos
-- Interfaz de usuario intuitiva
-- Sistema de notificaciones
+- Flujo por fases con bloqueo progresivo
+- Estado global con Zustand y persistencia en `localStorage`
+- UI moderna con Tailwind CSS, animaciones Framer Motion y drag & drop mediante React DnD
+- Generación de modelos y horarios simulados con datos locales
+- Vista pública lista para compartir resultados en directo
 
-## Instalación
+## Scripts
 
-Próximamente...
+```bash
+npm install
+npm run dev    # Inicia el entorno de desarrollo en http://localhost:5173
+npm run build  # Compila la aplicación para producción
+npm run preview
+```
 
-## Uso
+## Estructura
 
-Próximamente...
+- `src/store`: Estado global y selectores
+- `src/components/phases`: Componentes principales de cada fase
+- `src/utils`: Utilidades para generar modelos, horarios y slug públicos
+- `src/pages`: Constructor principal y vista pública del torneo
 
-## Contribución
-
-Próximamente...
-
-## Licencia
-
-Próximamente...
+La interfaz está en español mientras que el código y los comentarios están en inglés, tal como se solicitó.
